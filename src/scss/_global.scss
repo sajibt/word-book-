@@ -1,0 +1,16 @@
+@use "font";
+@use "colors";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: colors.$blgree;
+  font-family: font.$primary_font;
+}
+
+ul {
+  list-style: none;
+}

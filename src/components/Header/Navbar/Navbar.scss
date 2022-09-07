@@ -1,0 +1,32 @@
+@use "../../../scss/colors";
+.navbar {
+  display: flex;
+  width: 100%;
+  padding: 20px 0;
+  align-items: center;
+  .main_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 2rem;
+  }
+
+  &__links {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    margin-right: 5rem;
+    li {
+      padding: 0.8rem;
+
+      a {
+        cursor: pointer;
+        color: colors.$orange;
+      }
+    }
+  }
+}
